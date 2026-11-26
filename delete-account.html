@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How to delete your MyWalkMap account and understand what happens to your data.">
+  <meta name="color-scheme" content="light">
+  <title>MyWalkMap – Delete Account</title>
+  <style>
+    :root{--navy:#071b3a;--blue:#174ea6;--ink:#1e293b;--muted:#64748b;--line:#e2e8f0;--bg:#f4f7fb;--card:#fff;--pale:#eaf1ff;--red:#a92828;--redbg:#fff1f1}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.hero{background:linear-gradient(135deg,#071b3a,#123f85);color:#fff;padding:48px 20px 38px}.hero-inner,.main{width:min(820px,100%);margin:0 auto}.brand{font-size:14px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#c8d6ea}.hero h1{font-size:clamp(30px,5vw,42px);line-height:1.15;margin:14px 0 10px}.hero p{margin:0;color:#dbe7ff}.main{padding:26px 18px 60px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px 26px;margin:0 0 16px;box-shadow:0 3px 14px #0b28500a}.card h2{font-size:20px;line-height:1.35;color:var(--navy);margin:0 0 12px}.card h3{font-size:16px;margin:18px 0 6px;color:var(--navy)}p{margin:9px 0}ol,ul{padding-left:22px;margin:10px 0}li{padding:3px 0}a{color:var(--blue);text-underline-offset:3px;overflow-wrap:anywhere}.button{display:inline-block;background:var(--blue);color:#fff;padding:11px 17px;border-radius:9px;text-decoration:none;font-weight:700;margin-top:8px}.button:hover{filter:brightness(.93)}.notice{background:var(--pale);border-radius:10px;padding:14px 16px;color:#24436f;font-size:14px;margin-top:14px}.warning{background:var(--redbg);border-left:4px solid var(--red);padding:14px 16px;border-radius:9px;margin-top:12px}.warning strong{color:var(--red)}.small{color:var(--muted);font-size:14px}.contact{background:#071b3a;color:#fff;border:0}.contact h2{color:#fff}.contact a{color:#cfe0ff}.footer{text-align:center;color:var(--muted);font-size:13px;padding:8px 0 28px}
+    @media(max-width:600px){.hero{padding:36px 20px 30px}.main{padding:18px 12px 42px}.card{padding:20px 18px;border-radius:13px}body{font-size:15px}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand">MyWalkMap</div>
+      <h1>Delete your MyWalkMap account</h1>
+      <p>How to request account deletion and what happens to your information.</p>
+    </div>
+  </header>
+  <main class="main">
+    <section class="card">
+      <p>This page applies to the <strong>MyWalkMap</strong> app. You can delete your account from inside the app. If you cannot access the app, you can contact us by email to request deletion.</p>
+      <p><strong>Support email:</strong> <a href="mailto:kumaresankp21@gmail.com">kumaresankp21@gmail.com</a></p>
+      <!-- <div class="notice">Before publishing, replace <strong>YOUR_SUPPORT_EMAIL</strong> with the support address you actively monitor. Email requests must be processed by the developer; this page does not delete accounts automatically.</div> -->
+    </section>
+
+    <section class="card">
+      <h2>Option 1: Delete your account in the app</h2>
+      <ol>
+        <li>Open MyWalkMap and sign in to the account you want to delete.</li>
+        <li>Open <strong>Profile</strong>.</li>
+        <li>Select <strong>Delete Account</strong>.</li>
+        <li>Enter your current account password and type <strong>DELETE</strong> when asked.</li>
+        <li>Confirm the deletion request.</li>
+      </ol>
+      <p>After the server confirms the deletion, your Supabase authentication account and associated cloud profile are deleted, and the app signs you out.</p>
+    </section>
+
+    <section class="card">
+      <h2>Option 2: Request account deletion by email</h2>
+      <ol>
+        <li>Send an email from the email address registered to your MyWalkMap account.</li>
+        <li>Use the subject line <strong>MyWalkMap account deletion request</strong>.</li>
+        <li>In the message, ask us to delete your MyWalkMap account. Do not include your password.</li>
+      </ol>
+      <a class="button" href="mailto:kumaresankp21@gmail.com?subject=MyWalkMap%20account%20deletion%20request">Email an account deletion request</a>
+      <p class="small">We will verify that the request relates to the account holder and process the deletion. We aim to complete verified requests within 30 days. We may contact you if we need additional information to verify the request.</p>
+    </section>
+
+    <section class="card">
+      <h2>What information is deleted?</h2>
+      <ul>
+        <li>Your Supabase authentication account, including the account's email address and authentication credentials.</li>
+        <li>Your MyWalkMap cloud profile, including the name and avatar URL you provided.</li>
+      </ul>
+      <p>Deleting the authentication account also removes its associated profile record through the app's account-deletion process.</p>
+    </section>
+
+    <section class="card">
+      <h2>What stays on your phone?</h2>
+      <p>MyWalkMap currently stores workout history and GPS route records locally on your device. These records are not uploaded to your Supabase account by the current app design. For that reason, deleting your cloud account does <strong>not</strong> automatically erase locally stored workouts or routes.</p>
+      <p>To remove local MyWalkMap data, open Android Settings → Apps → MyWalkMap → Storage → Clear storage/data. The exact labels can differ by Android device.</p>
+      <div class="warning"><strong>Important:</strong> If you delete your account by email because you cannot open the app, your locally stored workouts and routes will remain on the device until you clear the app's storage yourself.</div>
+    </section>
+
+    <section class="card">
+      <h2>What may be retained temporarily?</h2>
+      <p>Limited technical records or provider-managed backups may remain for a limited period under the relevant service provider's normal retention and deletion processes. They are not used to restore a deleted account.</p>
+    </section>
+
+    <section class="contact card">
+      <h2>Need help?</h2>
+      <p>For account deletion questions or to follow up on a request, contact MyWalkMap Support:</p>
+      <p><strong><a href="mailto:kumaresankp21@gmail.com">kumaresankp21@gmail.com</a></strong></p>
+      <p><a href="privacy-policy.html">Read the MyWalkMap Privacy Policy</a></p>
+    </section>
+    <div class="footer">© 2026 MyWalkMap. All rights reserved.</div>
+  </main>
+</body>
+</html>
